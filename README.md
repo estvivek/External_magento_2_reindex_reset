@@ -1,4 +1,4 @@
-# External_magento_2_reindex_reset
+# External magento 2 reindex reset
 PHP file using magento function to reindex reset or show status of indexers for magento 2, 
 [This file must be password protected all the times.]
 
