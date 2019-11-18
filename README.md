@@ -1,13 +1,16 @@
 # External magento 2 reindex reset
-PHP file using magento function to reindex reset or show status of indexers for magento 2, 
-[This file must be password protected all the times.]
+## __PHP file using magento function to reindex reset or show status of indexers for magento 2__
+
+![UI sample](https://i.imgur.com/Cqwsjpj.png)
+
+__This file must be password protected all the times.__
 
 Upload this file reindex_core.php to a new directory in document root ie: public_html.
 Password protect the folder.
 
-For Cpanel / Centoswebpanel server
+### For Cpanel / Centoswebpanel server
 
-nano /home/[username]/public_html/[new-dir-name]/.htaccess
+~~~nano /home/[username]/public_html/[new-dir-name]/.htaccess
 
 ##############htaccess##########
 
@@ -27,6 +30,7 @@ Provide a password
 
 chown [username]:[username] /home/[username]/.htpasswd
   
-chmod 644 /home/[username]/.htpasswd
+chmod 644 /home/[username]/.htpasswd 
+~~~
   
-Many thanks to www.shyamkrishna.co.in for his time.
+### Many thanks to www.shyamkrishna.co.in for his time.
