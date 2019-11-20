@@ -33,4 +33,4 @@ chown [username]:[username] /home/[username]/.htpasswd
 chmod 644 /home/[username]/.htpasswd 
 ~~~
   
-### Many thanks to www.shyamkrishna.co.in for his time.
+### Many thanks to shyam krishna for his time.
